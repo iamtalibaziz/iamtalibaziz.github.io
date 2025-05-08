@@ -18,137 +18,157 @@
   <body class="bg-white text-gray-800 pt-20">
     <!-- Header -->
     <header
-  class="fixed top-0 left-0 w-full z-50 bg-white flex items-center justify-between px-6 py-4 shadow-md"
->
-  <!-- Logo -->
-  <div class="w-32">
-  </div>
-
-  <!-- Desktop Nav -->
-  <nav class="hidden md:flex text-sm font-medium items-center gap-5">
-    <a href="#about" class="hover:text-blue-700">About</a>
-    <a href="#work" class="hover:text-blue-700">Work</a>
-    <a href="#testimonials" class="hover:text-blue-700">Testimonials</a>
-    <a href="#contact" class="hover:text-blue-700">Contact</a>
-    <a href="#" class="bg-gray-900 text-white py-2 px-4 rounded-md">Download CV</a>
-  </nav>
-
-  <!-- Hamburger / Close Icon -->
-  <button id="menu-btn" class="md:hidden focus:outline-none">
-    <!-- Menu Icon (☰) -->
-    <svg
-      id="menu-icon"
-      class="w-6 h-6 text-gray-800"
-      fill="none"
-      stroke="currentColor"
-      viewBox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg"
+      class="fixed top-0 left-0 w-full z-50 bg-white flex items-center justify-between px-6 py-4 shadow-md"
     >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M4 6h16M4 12h16M4 18h16"
-      />
-    </svg>
+      <!-- Logo -->
+      <div class="w-32"></div>
 
-    <!-- Close Icon (✕) -->
-    <svg
-      id="close-icon"
-      class="w-6 h-6 text-gray-800 hidden"
-      fill="none"
-      stroke="currentColor"
-      viewBox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg"
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex text-sm font-medium items-center gap-5">
+        <a href="#about" class="hover:text-blue-700">About</a>
+        <a href="#work" class="hover:text-blue-700">Work</a>
+        <!--<a href="#testimonials" class="hover:text-blue-700">Testimonials</a>-->
+        <a href="#contact" class="hover:text-blue-700">Contact</a>
+        <a href="https://drive.google.com/file/d/1lIliVeSEPDTpxS7YBtZY_YzIRtThPsIL/view" target="_blank" class="bg-gray-900 text-white py-2 px-4 rounded-md"
+          >Download CV</a
+        >
+      </nav>
+
+      <!-- Hamburger / Close Icon -->
+      <button id="menu-btn" class="md:hidden focus:outline-none">
+        <!-- Menu Icon (☰) -->
+        <svg
+          id="menu-icon"
+          class="w-6 h-6 text-gray-800"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+
+        <!-- Close Icon (✕) -->
+        <svg
+          id="close-icon"
+          class="w-6 h-6 text-gray-800 hidden"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </button>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div
+      id="mobile-menu"
+      class="fixed top-20 right-0 bg-white z-50 p-6 md:hidden hidden"
     >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M6 18L18 6M6 6l12 12"
-      />
-    </svg>
-  </button>
-</header>
-
-<!-- Mobile Menu -->
-<div
-  id="mobile-menu"
-  class="fixed top-20 right-0 bg-white z-50 p-6 md:hidden hidden"
->
-  <a href="#about" class="block py-2 text-gray-700 hover:text-blue-700">About</a>
-  <a href="#work" class="block py-2 text-gray-700 hover:text-blue-700">Work</a>
-  <a href="#testimonials" class="block py-2 text-gray-700 hover:text-blue-700">Testimonials</a>
-  <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-700">Contact</a>
-  <a href="#" class="inline-block mt-2 bg-gray-900 text-white py-2 px-4 rounded-md">Download CV</a>
-</div>
-
-    <!-- Hero Section -->
-<!-- HERO SECTION -->
-<div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-  <section class="flex flex-col-reverse md:flex-row items-center justify-between py-10 md:py-20 gap-10">
-    
-    <!-- Left Side Content -->
-    <div class="w-full md:w-1/2 max-w-2xl text-center md:text-left">
-      <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-        Hi, I’m Talib Aziz
-      </h1>
-      <p class="text-gray-700 text-lg leading-relaxed mb-4">
-        I’m a Full-Stack Tech Lead specializing in architecting scalable, high-performance systems. Proficient in Node.js, React.js, Python, MongoDB, MySQL, Generative AI, and API design, with a strong emphasis on backend development, database optimization, and cloud infrastructure. Passionate about driving innovation, leading teams, and crafting robust solutions that power seamless user experiences. After 10+ years in the field, I still get excited every time I start a new project—just like when I first began.
-      </p>
-      <p class="text-sm text-gray-600 mb-2">📍 Delhi, India</p>
-      <p class="text-sm text-green-600 font-medium mb-4">✅ Available for new projects</p>
-      
-      <!-- Social Links -->
-      <div class="flex gap-4 justify-center md:justify-start">
-         <!-- GitHub -->
+      <a href="#about" class="block py-2 text-gray-700 hover:text-blue-700"
+        >About</a
+      >
+      <a href="#work" class="block py-2 text-gray-700 hover:text-blue-700"
+        >Work</a
+      >
+	  <!--
       <a
-      href="https://github.com/iamtalibaziz"
-      class="text-gray-700 hover:text-black"
-      aria-label="GitHub"
-    >
-      <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-        <path
-          d="M12 0C5.372 0 0 5.373 0 12a12 12 0 008.207 11.385c.6.111.793-.26.793-.577v-2.023c-3.338.724-4.033-1.609-4.033-1.609-.547-1.387-1.335-1.756-1.335-1.756-1.092-.747.083-.732.083-.732 1.206.085 1.84 1.24 1.84 1.24 1.073 1.837 2.815 1.306 3.504.998.108-.777.42-1.306.763-1.605-2.665-.303-5.466-1.334-5.466-5.933 0-1.311.469-2.382 1.235-3.222-.124-.303-.536-1.524.117-3.176 0 0 1.008-.322 3.3 1.23a11.505 11.505 0 016 0c2.291-1.552 3.297-1.23 3.297-1.23.655 1.652.243 2.873.12 3.176.77.84 1.232 1.911 1.232 3.222 0 4.61-2.804 5.627-5.475 5.921.431.372.817 1.103.817 2.222v3.293c0 .32.19.694.8.576A12.001 12.001 0 0024 12c0-6.627-5.373-12-12-12z"
-        />
-      </svg>
-    </a>
-    <!-- LinkedIn -->
-    <a
-      href="https://www.linkedin.com/in/iamtalibaziz"
-      class="text-gray-700 hover:text-blue-700"
-      aria-label="LinkedIn"
-    >
-      <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-        <path
-          d="M19 0h-14c-2.762 0-5 2.238-5 5v14c0 2.762 2.238 5 5 5h14c2.761 0 5-2.238 5-5v-14c0-2.762-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.79-1.75-1.766s.784-1.766 1.75-1.766 1.75.79 1.75 1.766-.784 1.766-1.75 1.766zm13.5 11.268h-3v-5.5c0-1.381-.027-3.156-1.922-3.156-1.924 0-2.221 1.5-2.221 3.051v5.605h-3v-10h2.881v1.367h.041c.401-.758 1.379-1.559 2.838-1.559 3.033 0 3.595 2.008 3.595 4.619v5.573z"
-        />
-      </svg>
-    </a>
-      </div>
+        href="#testimonials"
+        class="block py-2 text-gray-700 hover:text-blue-700"
+        >Testimonials</a
+      >
+	  -->
+      <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-700"
+        >Contact</a
+      >
+      <a
+        href="https://drive.google.com/file/d/1lIliVeSEPDTpxS7YBtZY_YzIRtThPsIL/view"
+        class="inline-block mt-2 bg-gray-900 text-white py-2 px-4 rounded-md"
+        >Download CV</a
+      >
     </div>
 
-    <!-- Right Side Image -->
-    <div class="w-full md:w-1/2 flex md:justify-end justify-center">
-      <div class="bg-gray-100 p-2 rounded-xl shadow-xl max-w-xs w-full">
-        <img
-          src="./images/profile-picture/talib.jfif"
-          alt="Talib Aziz"
-          class="rounded-lg w-full h-auto object-cover"
-        />
-      </div>
-    </div>
-  </section>
-</div>
+    <!-- HERO SECTION -->
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section
+        class="flex flex-col-reverse md:flex-row items-center justify-between py-10 md:py-20 gap-10"
+      >
+        <!-- Left Side Content -->
+        <div class="w-full md:w-1/2 max-w-2xl text-center md:text-left">
+          <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
+            Hi, I’m Talib Aziz
+          </h1>
+          <p class="text-gray-700 text-lg leading-relaxed mb-4">
+            I’m a Full-Stack Tech Lead specializing in architecting scalable,
+            high-performance systems. Proficient in Node.js, React.js, Python,
+            MongoDB, MySQL, Generative AI, and API design, with a strong
+            emphasis on backend development, database optimization, and cloud
+            infrastructure. Passionate about driving innovation, leading teams,
+            and crafting robust solutions that power seamless user experiences.
+            After 10+ years in the field, I still get excited every time I start
+            a new project—just like when I first began.
+          </p>
+          <p class="text-sm text-gray-600 mb-2">📍 Delhi, India</p>
+          <p class="text-sm text-green-600 font-medium mb-4">
+            ✅ Available for new projects
+          </p>
 
-  
+          <!-- Social Links -->
+          <div class="flex gap-4 justify-center md:justify-start">
+            <!-- GitHub -->
+            <a
+              href="https://github.com/iamtalibaziz"
+              class="text-gray-700 hover:text-black"
+              aria-label="GitHub"
+            >
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 0C5.372 0 0 5.373 0 12a12 12 0 008.207 11.385c.6.111.793-.26.793-.577v-2.023c-3.338.724-4.033-1.609-4.033-1.609-.547-1.387-1.335-1.756-1.335-1.756-1.092-.747.083-.732.083-.732 1.206.085 1.84 1.24 1.84 1.24 1.073 1.837 2.815 1.306 3.504.998.108-.777.42-1.306.763-1.605-2.665-.303-5.466-1.334-5.466-5.933 0-1.311.469-2.382 1.235-3.222-.124-.303-.536-1.524.117-3.176 0 0 1.008-.322 3.3 1.23a11.505 11.505 0 016 0c2.291-1.552 3.297-1.23 3.297-1.23.655 1.652.243 2.873.12 3.176.77.84 1.232 1.911 1.232 3.222 0 4.61-2.804 5.627-5.475 5.921.431.372.817 1.103.817 2.222v3.293c0 .32.19.694.8.576A12.001 12.001 0 0024 12c0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+            </a>
+            <!-- LinkedIn -->
+            <a
+              href="https://www.linkedin.com/in/iamtalibaziz"
+              class="text-gray-700 hover:text-blue-700"
+              aria-label="LinkedIn"
+            >
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M19 0h-14c-2.762 0-5 2.238-5 5v14c0 2.762 2.238 5 5 5h14c2.761 0 5-2.238 5-5v-14c0-2.762-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.79-1.75-1.766s.784-1.766 1.75-1.766 1.75.79 1.75 1.766-.784 1.766-1.75 1.766zm13.5 11.268h-3v-5.5c0-1.381-.027-3.156-1.922-3.156-1.924 0-2.221 1.5-2.221 3.051v5.605h-3v-10h2.881v1.367h.041c.401-.758 1.379-1.559 2.838-1.559 3.033 0 3.595 2.008 3.595 4.619v5.573z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Side Image -->
+        <div class="w-full md:w-1/2 flex md:justify-end justify-center">
+          <div class="bg-gray-100 p-2 rounded-xl shadow-xl max-w-xs w-full">
+            <img
+              src="./images/profile-picture/talib.jfif"
+              alt="Talib Aziz"
+              class="rounded-lg w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
 
     <!-- about section -->
-
-    <section
-      class=" px-6 md:px-20 py-16 text-gray-800 bg-gray-50"
-      id="about"
-    >
+    <section class="px-6 md:px-20 py-16 text-gray-800 bg-gray-50" id="about">
       <!-- Section Tagline -->
       <div class="flex justify-center mb-8">
         <div
@@ -170,120 +190,600 @@
           class="space-y-5 text-gray-700 text-base leading-relaxed text-left"
         >
           <p>
-            Looking for a Tech Lead who can turn ideas into fast, scalable, and user-friendly applications? That’s exactly what I do. With expertise in Node.js, React.js, Python, MongoDB, MySQL, and AI-driven solutions, I lead teams in building seamless digital experiences that are both efficient and maintainable.
+            Looking for a Tech Lead who can turn ideas into fast, scalable, and
+            user-friendly applications? That’s exactly what I do. With expertise
+            in Node.js, React.js, Python, MongoDB, MySQL, and AI-driven
+            solutions, I lead teams in building seamless digital experiences
+            that are both efficient and maintainable.
           </p>
 
           <p>
-            But I’m not just about managing projects—I’m about solving complex problems and delivering long-term solutions. Whether it’s optimizing performance, improving system architecture, or fostering innovation within a team, I focus on driving results that make a lasting impact.
+            But I’m not just about managing projects—I’m about solving complex
+            problems and delivering long-term solutions. Whether it’s optimizing
+            performance, improving system architecture, or fostering innovation
+            within a team, I focus on driving results that make a lasting
+            impact.
           </p>
 
           <!-- Expectations List -->
           <div>
             <p class="font-semibold mb-2">What You Can Expect:</p>
             <ul class="list-disc list-inside space-y-1">
-              <li>Well-structured, maintainable, and scalable code backed by strategic technical leadership.</li>
-              <li>Performance-optimized applications designed with a seamless UX and long-term efficiency in mind.</li>
-              <li>Proactive problem-solving with a focus on mentoring, guiding, and empowering teams to deliver outstanding solutions.</li>
-              <li>Strong collaboration, adaptability, and a leadership mindset to drive success in fast-paced, high-impact projects.</li>
+              <li>
+                Well-structured, maintainable, and scalable code backed by
+                strategic technical leadership.
+              </li>
+              <li>
+                Performance-optimized applications designed with a seamless UX
+                and long-term efficiency in mind.
+              </li>
+              <li>
+                Proactive problem-solving with a focus on mentoring, guiding,
+                and empowering teams to deliver outstanding solutions.
+              </li>
+              <li>
+                Strong collaboration, adaptability, and a leadership mindset to
+                drive success in fast-paced, high-impact projects.
+              </li>
             </ul>
           </div>
           <!-- Final Line -->
           <p>
-            If you're looking for a Team Lead who combines technical expertise with a results-driven, people-focused approach, let's connect and build something exceptional together.
+            If you're looking for a Team Lead who combines technical expertise
+            with a results-driven, people-focused approach, let's connect and
+            build something exceptional together.
           </p>
         </div>
       </div>
     </section>
 
     <!-- skills section -->
-
-    <section class=" py-12 px-6 md:px-16">
+    <section class="py-12 px-6 md:px-16">
       <div class="max-w-6xl mx-auto text-center">
-        <div class="inline-block bg-gray-200 text-gray-800 text-lg font-medium px-6 py-2 rounded-full mb-6">
+        <div
+          class="inline-block bg-gray-200 text-gray-800 text-lg font-medium px-6 py-2 rounded-full mb-6"
+        >
           Skills
         </div>
-    
+
         <div class="grid gap-8">
-          
           <!-- Back-End Technologies -->
           <div class="bg-white rounded-2xl shadow-md p-6 text-left">
-            <h3 class="text-xl font-semibold text-center mb-6">Back-End Technologies</h3>
-            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-6 justify-items-center">
-              <div class="text-center"><img src="./images/skills images/backend/js.png" alt="Javascript" class="h-8 mx-auto mb-1" /><p class="text-sm">Javascript</p></div>
-              <div class="text-center"><img src="./images/skills images/backend/typescript.png" alt="Typescript" class="h-8 mx-auto mb-1" /><p class="text-sm">Typescript</p></div>
-			  <div class="text-center"><img src="./images/skills images/backend/nodejs.png" alt="Node.js" class="h-8 mx-auto mb-1" /><p class="text-sm">Node.js</p></div>
-			  <div class="text-center"><img src="./images/skills images/backend/python.png" alt="Python" class="h-8 mx-auto mb-1" /><p class="text-sm">Python</p></div>
-              <div class="text-center"><img src="./images/skills images/backend/nextjs.png" alt="Next.js" class="h-8 mx-auto mb-1" /><p class="text-sm">Nest.js</p></div>
-              <div class="text-center"><img src="./images/skills images/backend/expressjs.png" alt="Express.js" class="h-8 mx-auto mb-1" /><p class="text-sm">Express.js</p></div>
-              <div class="text-center"><img src="./images/skills images/backend/fastapi.png" alt="Fast API" class="h-8 mx-auto mb-1" /><p class="text-sm">Fast API</p></div>
-              <div class="text-center"><p class="text-sm">Kafka</p></div>
-              <div class="text-center"><p class="text-sm">RabbitMQ</p></div>
+            <h3 class="text-xl font-semibold text-center mb-6">
+              Back-End Technologies
+            </h3>
+            <div
+              class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-6 justify-items-center"
+            >
+              <div class="text-center">
+                <img
+                  src="./images/skills images/backend/js.png"
+                  alt="Javascript"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Javascript</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/backend/typescript.png"
+                  alt="Typescript"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Typescript</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/backend/nodejs.png"
+                  alt="Node.js"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Node.js</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/backend/python.png"
+                  alt="Python"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Python</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/backend/nextjs.png"
+                  alt="Next.js"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Nest.js</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/backend/expressjs.png"
+                  alt="Express.js"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Express.js</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/backend/fastapi.png"
+                  alt="Fast API"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Fast API</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/backend/socket-io.png"
+                  alt="Fast API"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Socket.io</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/backend/microservices.png"
+                  alt="Fast API"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Microservices</p>
+              </div>
             </div>
           </div>
-    
+
           <!-- Database Technologies -->
           <div class="bg-white rounded-2xl shadow-md p-6 text-left">
-            <h3 class="text-xl font-semibold text-center mb-6">Database Technologies</h3>
-            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-6 justify-items-center">
-              <div class="text-center"><p class="text-sm">MySQL</p></div>
-              <div class="text-center"><img src="./images/skills images/database/mongodb.png" alt="MongoDB" class="h-8 mx-auto mb-1" /><p class="text-sm">MongoDB</p></div>
-              <div class="text-center"><img src="./images/skills images/database/chromadb.png" alt="ChromaDB" class="h-8 mx-auto mb-1" /><p class="text-sm">ChromaDB</p></div>
-              <div class="text-center"><p class="text-sm">Pinecone</p></div>
-              <div class="text-center"><p class="text-sm">Redis</p></div>
+            <h3 class="text-xl font-semibold text-center mb-6">
+              Database Technologies
+            </h3>
+            <div
+              class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-6 justify-items-center"
+            >
+              <div class="text-center">
+                <img
+                  src="./images/skills images/database/Mysql.png"
+                  alt="MongoDB"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">MySQL</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/database/mongodb.png"
+                  alt="MongoDB"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">MongoDB</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/database/chromadb.png"
+                  alt="ChromaDB"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">ChromaDB</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/database/Pine_Cone.png"
+                  alt="MongoDB"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Pinecone</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/database/redis.png"
+                  alt="redis"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Redis</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/database/mongoose.png"
+                  alt="MongoDB"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Mongoose</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/database/sequilize.png"
+                  alt="MongoDB"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Sequelize</p>
+              </div>
             </div>
           </div>
-    
-          <!-- AI Technologies -->
+
+          <!-- AI ML Technologies -->
           <div class="bg-white rounded-2xl shadow-md p-6 text-left">
-            <h3 class="text-xl font-semibold text-center mb-6">AI Technologies</h3>
-            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-6 justify-items-center">
-              <div class="text-center"><img src="./images/skills images/ai/langchain.png" alt="LangChain" class="h-8 mx-auto mb-1" /><p class="text-sm">LangChain</p></div>
-              <div class="text-center"><img src="./images/skills images/ai/langgraph.png" alt="LangGraph" class="h-8 mx-auto mb-1" /><p class="text-sm">LangGraph</p></div>
-              <div class="text-center"><img src="./images/skills images/ai/openai.png" alt="Open AI" class="h-8 mx-auto mb-1" /><p class="text-sm">Open AI</p></div>
-              <div class="text-center"><img src="./images/skills images/ai/n8n.png" alt="n8n" class="h-8 mx-auto mb-1" /><p class="text-sm">n8n</p></div>
-              <div class="text-center"><img src="./images/skills images/ai/llama.png" alt="Llama" class="h-8 mx-auto mb-1" /><p class="text-sm">Llama</p></div>
+            <h3 class="text-xl font-semibold text-center mb-6">
+              AI & ML Technologies
+            </h3>
+            <div
+              class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-6 justify-items-center"
+            >
+              <div class="text-center">
+                <img
+                  src="./images/skills images/ai/langchain.png"
+                  alt="Generative AI"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Generative AI</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/ai/langchain.png"
+                  alt="LangChain"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Langchcain</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/ai/openai.png"
+                  alt="Open AI"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Open AI</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/ai/n8n.png"
+                  alt="LLMs"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">LLMs</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/ai/llama.png"
+                  alt="Llama"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Google Translate API</p>
+              </div>
             </div>
           </div>
-		  
-		  <!-- Front-End Technologies -->
+
+          <!-- Front-End Technologies -->
           <div class="bg-white rounded-2xl shadow-md p-6 text-left">
-            <h3 class="text-xl font-semibold text-center mb-6">Front-End Technologies</h3>
-            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-6 justify-items-center">
-              <div class="text-center"><img src="./images/skills images/frontend/html.png" alt="HTML5" class="h-8 mx-auto mb-1" /><p class="text-sm">HTML5</p></div>
-              <div class="text-center"><img src="./images/skills images/frontend/css.png" alt="CSS" class="h-8 mx-auto mb-1" /><p class="text-sm">CSS</p></div>
-              <div class="text-center"><img src="./images/skills images/frontend/js.png" alt="Javascript" class="h-8 mx-auto mb-1" /><p class="text-sm">Javascript</p></div>
-              <div class="text-center"><img src="./images/skills images/frontend/typescript.png" alt="Typescript" class="h-8 mx-auto mb-1" /><p class="text-sm">Typescript</p></div>
-              <div class="text-center"><img src="./images/skills images/frontend/react.png" alt="React" class="h-8 mx-auto mb-1" /><p class="text-sm">React</p></div>
-              <div class="text-center"><img src="./images/skills images/frontend/nextjs.png" alt="Next.js" class="h-8 mx-auto mb-1" /><p class="text-sm">Next.js</p></div>
-              <div class="text-center"><img src="./images/skills images/frontend/reactnative.png" alt="React Native" class="h-8 mx-auto mb-1" /><p class="text-sm">React-Native</p></div>
-              <div class="text-center"><img src="./images/skills images/frontend/material ui.png" alt="Material UI" class="h-8 mx-auto mb-1" /><p class="text-sm">Material UI</p></div>
+            <h3 class="text-xl font-semibold text-center mb-6">
+              Front-End Technologies
+            </h3>
+            <div
+              class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-6 justify-items-center"
+            >
+              <div class="text-center">
+                <img
+                  src="./images/skills images/frontend/html.png"
+                  alt="HTML5"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">HTML5</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/frontend/css.png"
+                  alt="CSS"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">CSS</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/frontend/js.png"
+                  alt="Javascript"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Javascript</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/frontend/typescript.png"
+                  alt="Typescript"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Typescript</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/frontend/react.png"
+                  alt="React"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">React</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/frontend/nextjs.png"
+                  alt="Next.js"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Next.js</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/frontend/reactnative.png"
+                  alt="React Native"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">React-Native</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/frontend/material ui.png"
+                  alt="Material UI"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Material UI</p>
+              </div>
             </div>
           </div>
-		  <div class="bg-white rounded-2xl shadow-md p-6 text-left">
-            <h3 class="text-xl font-semibold text-center mb-6">Blockchain Technologies</h3>
-            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-6 justify-items-center">
-              <div class="text-center"><p class="text-sm">Multichain</p></div>
-              <div class="text-center"><p class="text-sm">Solana</p></div>
+
+          <!-- Blockchain Technologies -->
+          <!-- <div class="bg-white rounded-2xl shadow-md p-6 text-left">
+            <h3 class="text-xl font-semibold text-center mb-6">
+              Blockchain Technologies
+            </h3>
+            <div
+              class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-6 justify-items-center"
+            >
+              <div class="text-center">
+                <img
+                  src="./images/skills images/blockchain/Multichain.png"
+                  alt="HTML5"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Multichain</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/blockchain/blockchain.png"
+                  alt="HTML5"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Blockchain</p>
+              </div>
             </div>
-          </div>
-		  <div class="bg-white rounded-2xl shadow-md p-6 text-left">
+          </div> -->
+
+          <!-- DevOps Cloud Technologies -->
+          <div class="bg-white rounded-2xl shadow-md p-6 text-left">
             <h3 class="text-xl font-semibold text-center mb-6">DevOps/Cloud</h3>
-            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-6 justify-items-center">
-              <div class="text-center"><p class="text-sm">AWS</p></div>
-              <div class="text-center"><p class="text-sm">Docker</p></div>
-              <div class="text-center"><p class="text-sm">Jenkins</p></div>
-              <div class="text-center"><p class="text-sm">Git</p></div>
-              <div class="text-center"><p class="text-sm">Github</p></div>
-              <div class="text-center"><p class="text-sm">Bitbucket</p></div>
+            <div
+              class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-6 justify-items-center"
+            >
+              <div class="text-center">
+                <img
+                  src="./images/skills images/DevOps/Amazon.png"
+                  alt="HTML5"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">AWS</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/DevOps/Docker.webp"
+                  alt="HTML5"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Docker</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/DevOps/jenkins.png"
+                  alt="HTML5"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Jenkins</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/DevOps/CICD.webp"
+                  alt="HTML5"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">CI/CD</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/DevOps/cloud/git.png"
+                  alt="HTML5"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Git</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/DevOps/cloud/github.png"
+                  alt="HTML5"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Github</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/DevOps/cloud/Bitbucket.webp"
+                  alt="HTML5"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Bitbucket</p>
+              </div>
             </div>
           </div>
-		  
+
+          <!-- Testing tools -->
+          <div class="bg-white rounded-2xl shadow-md p-6 text-left">
+            <h3 class="text-xl font-semibold text-center mb-6">
+              Testing Tools
+            </h3>
+            <div
+              class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-6 justify-items-center"
+            >
+              <div class="text-center">
+                <img
+                  src="./images/skills images/testing/unit test.png"
+                  alt="HTML5"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Unit Test</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/testing/Mocha.svg"
+                  alt="HTML5"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Mocha</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/testing/jest.png"
+                  alt="HTML5"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Jest</p>
+              </div>
+              <div class="text-center">
+                <img
+                  src="./images/skills images/testing/playwright.svg"
+                  alt="HTML5"
+                  class="h-8 mx-auto mb-1"
+                />
+                <p class="text-sm">Playwright</p>
+              </div>
+            </div>
+          </div>
+
+<!-- Tech Sections: Security & Quality + Blockchain Technologies -->
+<div class="flex flex-col md:flex-row gap-6 w-full">
+
+  <!-- Security & Quality -->
+  <div class="bg-white rounded-2xl shadow-md p-6 text-left w-full md:w-1/2">
+    <h3 class="text-xl font-semibold text-center mb-6">
+      Security & Quality
+    </h3>
+    <div
+      class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 gap-6 justify-items-center"
+    >
+      <div class="text-center">
+        <img
+          src="./images/skills images/security&Quality/snyk.png"
+          alt="Snyk"
+          class="h-8 mx-auto mb-1"
+        />
+        <p class="text-sm">Snyk</p>
+      </div>
+      <div class="text-center">
+        <img
+          src="./images/skills images/security&Quality/sonarcloud.svg"
+          alt="Sonar Cloud"
+          class="h-8 mx-auto mb-1"
+        />
+        <p class="text-sm">Sonar Cloud</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Blockchain Technologies -->
+  <div class="bg-white rounded-2xl shadow-md p-6 text-left w-full md:w-1/2">
+    <h3 class="text-xl font-semibold text-center mb-6">
+      Blockchain Technologies
+    </h3>
+    <div
+      class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 gap-6 justify-items-center"
+    >
+      <div class="text-center">
+        <img
+          src="./images/skills images/blockchain/Multichain.png"
+          alt="Multichain"
+          class="h-8 mx-auto mb-1"
+        />
+        <p class="text-sm">Multichain</p>
+      </div>
+      <div class="text-center">
+        <img
+          src="./images/skills images/blockchain/blockchain.png"
+          alt="Blockchain"
+          class="h-8 mx-auto mb-1"
+        />
+        <p class="text-sm">Blockchain</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+          <!-- Tech Sections: Messaging & Streaming + Payment Gateways -->
+<div class="flex flex-col md:flex-row gap-6 w-full">
+
+  <!-- Messaging & Streaming -->
+  <div class="bg-white rounded-2xl shadow-md p-6 text-left w-full md:w-1/2">
+    <h3 class="text-xl font-semibold text-center mb-6">
+      Messaging & Streaming
+    </h3>
+    <div
+      class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 gap-6 justify-items-center"
+    >
+      <div class="text-center">
+        <img
+          src="./images/skills images/messaging&streaming/kafka.png"
+          alt="Kafka"
+          class="h-8 mx-auto mb-1"
+        />
+        <p class="text-sm">Kafka</p>
+      </div>
+      <div class="text-center">
+        <img
+          src="./images/skills images/messaging&streaming/RabbitMQ.png"
+          alt="RabbitMQ"
+          class="h-8 mx-auto mb-1"
+        />
+        <p class="text-sm">RabbitMQ</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Payment Gateways -->
+  <div class="bg-white rounded-2xl shadow-md p-6 text-left w-full md:w-1/2">
+    <h3 class="text-xl font-semibold text-center mb-6">
+      Payment Gateways
+    </h3>
+    <div
+      class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 gap-6 justify-items-center"
+    >
+      <div class="text-center">
+        <img
+          src="./images/skills images/payment gatway/Stripe.png"
+          alt="Stripe"
+          class="h-8 mx-auto mb-1"
+        />
+        <p class="text-sm">Stripe</p>
+      </div>
+      <div class="text-center">
+        <img
+          src="./images/skills images/payment gatway/paypal.png"
+          alt="PayPal"
+          class="h-8 mx-auto mb-1"
+        />
+        <p class="text-sm">PayPal</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
         </div>
       </div>
     </section>
-    
-    <!-- experience section -->
 
+    <!-- experience section -->
     <section class="bg-gray-50 py-12 px-6 md:px-16">
       <div class="max-w-6xl mx-auto text-center">
         <div
@@ -298,81 +798,89 @@
         <!-- Upwork Experience Card -->
         <div class="bg-white rounded-2xl shadow-md p-6 mb-8 text-left">
           <div class="flex items-center justify-between mb-4">
-            <img src="./images/experience/upwork.png" alt="Upwork Logo" class="w-24 h-auto" />
-            <span class="text-gray-500">Jan 2024 – Present</span>
+            <img
+              src="./images/experience/upwork.png"
+              alt="Upwork Logo"
+              class="w-24 h-auto"
+            />
+            <span class="text-gray-500">Nov 2024 – Present | Remote</span>
           </div>
           <h3 class="text-xl font-semibold">Full Stack Developer</h3>
           <p class="text-gray-700 mt-2 mb-4">
-            As a seasoned Full Stack Developer on Upwork, I specialized in
-            building scalable, high-quality solutions using modern web
-            technologies. I’ve worked extensively with the MERN stack and
-            expanded my backend expertise with Python, FastAPI, and AI
-            integration through LangChain and LLMs.
+            At a leading SaaS company, I lead the development of scalable, high-performance applications and oversee a team of developers. I contribute to system architecture design, team mentorship, and innovation in full-stack technologies.
           </p>
           <h4 class="font-semibold mb-2">Key Projects:</h4>
           <ul class="list-disc list-inside text-gray-700 space-y-2">
             <li>
-              <strong>Struck.build –</strong> STRUCK.build is an AI-powered
-              compliance platform aimed at reducing time-to-construction and
-              optimizing project budgets. I contributed to building its core
-              features using Next.js, FastAPI, and Python. My work included
-              developing the AI co-pilot frontend, an SEO-optimized landing
-              page, and backend services for generating DXF files, integrating
-              ChatGPT, and implementing RAG-based document analysis. These
-              solutions automated zoning and design checks, significantly
-              streamlining the compliance process.
+              Architected and developed applications using Node.js, Nest.js, React.js, Python, MongoDB, and MySQL.
             </li>
             <li>
-              <strong>Convo.ai –</strong> An AI-powered conversational platform
-              built to transform customer interactions through intelligent
-              automation. Leveraging the MERN stack, I developed scalable
-              backend services and a dynamic React-based frontend. I integrated
-              NLP models to enable accurate query responses, and ensured
-              seamless third-party API and CRM tool integrations.
+              Mentored junior developers and optimized team workflows to boost productivity.
+            </li>
+            <li>
+              Drove innovation in backend performance and frontend responsiveness.
             </li>
           </ul>
         </div>
 
         <!-- Binary Informatics Experience Card -->
-        <div class="bg-white rounded-2xl shadow-md p-6 text-left">
+        <div class="bg-white rounded-2xl shadow-md p-6 mb-8 text-left">
           <div class="flex items-center justify-between mb-4">
             <img
               src="./images/experience/binary info.png"
               alt="Binary Informatics Logo"
               class="w-24 h-auto"
             />
-            <span class="text-gray-500">Jul 2018 – Oct 2024</span>
+            <span class="text-gray-500">Sep 2018 – Oct 2024 | Noida</span>
           </div>
           <h3 class="text-xl font-semibold">
-            Binary Informatics – Software Engineer
+            Binary Informatics – Tech Lead
           </h3>
           <p class="text-gray-700 mt-2 mb-4">
-            At Binary Informatics, I worked as a Software Engineer, contributing
-            to multiple milestone projects:
+           As a Tech Lead at Binary Informatics, I was responsible for leading backend and full-stack teams, designing system architectures, and ensuring the delivery of quality software solutions.
           </p>
           <h4 class="font-semibold mb-2">Key Projects:</h4>
           <ul class="list-disc list-inside text-gray-700 space-y-2">
             <li>
-              <strong>Walacor –</strong> A blockchain-powered enterprise
-              platform integrating quantum-resistant encryption and distributed
-              microservices architecture to ensure secure and efficient data
-              management. My work focused on developing key backend components
-              and optimizing system scalability.
+              <strong>Engineered and maintained a modular MERN stack web application,</strong> integrating REST APIs, microservices, message brokers, and secure payment gateways like Stripe and PayPal.
             </li>
             <li>
-              <strong>GoMedii –</strong> A dynamic platform designed to
-              streamline content creation and management. I played a crucial
-              role in building a robust and scalable architecture, enhancing
-              performance, and integrating advanced features to improve user
-              experience.
+              <strong>Led the Node.js team, </strong> A managing workflows with Jira and Confluence, conducting daily stand-ups, and mentoring developers to improve technical performance.
+            </li>
+            <li>
+              <strong>Collaborated directly with clients</strong>  to gather requirements, plan roadmaps, implement change requests, and deliver scalable, business-aligned solutions.
             </li>
           </ul>
-          <p class="text-gray-700 mt-4">
-            These projects allowed me to work on cutting-edge technologies,
-            scalable architectures, and high-performance solutions, further
-            strengthening my expertise in full-stack development and system
-            design.
+        </div>
+
+        <!-- Magnon Eg+ Pvt. Ltd – Senior Software Engineer -->
+        <div class="bg-white rounded-2xl shadow-md p-6 text-left">
+          <div class="flex items-center justify-between mb-4">
+            <img
+              src="./images/experience/magnon.png"
+              alt="Binary Informatics Logo"
+              class="w-24 h-auto"
+            />
+            <span class="text-gray-500">Jan 2014 – Mar 2018 | Noida</span>
+          </div>
+          <h3 class="text-xl font-semibold">
+            Magnon Eg+ Pvt. Ltd – Senior Software Engineer
+          </h3>
+          <p class="text-gray-700 mt-2 mb-4">
+            At Magnon Eg+, I played a key role in delivering reliable and maintainable web applications for business needs, focusing on backend logic, APIs, and integrations.
           </p>
+          <h4 class="font-semibold mb-2">Key Responsibilities:</h4>
+          <ul class="list-disc list-inside text-gray-700 space-y-2">
+            <li>
+              <strong>Developed and maintained RESTful backend services</strong>  using Node.js, implementing business logic and handling client-driven feature changes.
+            </li>
+            <li>
+              <strong>Integrated secure payment gateways,  </strong> including Stripe and PayPal, to ensure smooth transaction processing.
+            </li>
+            <li>
+              <strong>Led daily stand-ups,</strong>fostering team communication and ensuring task progress with transparent tracking.
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -381,237 +889,19 @@
     <section class="bg-white py-12 px-6 md:px-16" id="work">
       <div class="max-w-7xl mx-auto">
         <div class="text-center">
-
           <div
-            class=" inline-block bg-gray-200 text-gray-800 text-lg font-medium px-6 py-2 rounded-full mb-6"
+            class="inline-block bg-gray-200 text-gray-800 text-lg font-medium px-6 py-2 rounded-full mb-6"
           >
             Works
           </div>
-          <p class=" text-gray-600">
+          <p class="text-gray-600">
             Some of the noteworthy projects I have built:
           </p>
         </div>
-        <!-- struck-ai Project -->
-        <section id="struck-ai" class="project-section py-9  ">
-          <div class="max-w-6xl mx-auto">
-            <div
-              class="bg-white rounded-2xl shadow-lg p-6 md:p-10 flex flex-col md:flex-row gap-8 items-start"
-            >
-              <!-- Project Image -->
-              <div class="md:w-1/2 w-full">
-                <img
-                  src="./images/work/struck-ai.png"
-                  alt="STRUCK-AI project screenshot"
-                  class="rounded-xl w-full"
-                />
-                <p class="mt-4 text-center font-semibold text-xl text-gray-600">
-                  STRUCK-AI
-                </p>
-              </div>
 
-              <!-- Project Details -->
-              <div
-                class="md:w-1/2 w-full text-left flex flex-col justify-between"
-              >
-                <div>
-                  <h3 class="text-3xl font-bold mb-4 text-gray-800">
-                    STRUCK – AI-Powered Compliance & Automation
-                  </h3>
-                  <p class="text-gray-700 mb-6 leading-relaxed">
-                    STRUCK is an AI-assisted compliance platform designed to
-                    de-risk projects, reduce time-to-construction by at least
-                    15%, and optimize project budgets by 5-15%. It streamlines
-                    the compliance process through two key solutions:
-                  </p>
-
-                  <div class="mb-6">
-                    <h4 class="font-semibold text-xl mb-3 text-gray-800">
-                      Key Solutions:
-                    </h4>
-                    <ul class="list-disc pl-5 text-gray-700 space-y-2">
-                      <li>
-                        <strong class="text-gray-800"
-                          >AI-Powered Regulations Library:</strong
-                        >
-                        A comprehensive, intelligent database for regulatory
-                        compliance.
-                      </li>
-                      <li>
-                        <strong class="text-gray-800"
-                          >Automated Zoning & Design Checks:</strong
-                        >
-                        Ensuring projects align with zoning laws and design
-                        standards seamlessly.
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div class="mb-6">
-                    <h4 class="font-semibold text-xl mb-3 text-gray-800">
-                      My Contributions:
-                    </h4>
-                    <ul class="list-disc pl-5 text-gray-700 space-y-2">
-                      <li>
-                        <strong>Unravel (Next.js):</strong> Developed a Next.js
-                        application serving as the frontend for the AI co-pilot,
-                        integrating both server-side and client-side rendering.
-                        Designed and implemented REST APIs to support various
-                        functionalities efficiently.
-                      </li>
-                      <li>
-                        <strong
-                          >3DBuildings (Python, Functions Framework):</strong
-                        >
-                        Built a Python-based service that fetches building
-                        coordinates and structures, converting them into DXF
-                        AutoCAD format using ezdxf, automating design workflows
-                        and reducing manual intervention.
-                      </li>
-                      <li>
-                        <strong
-                          >Python Backend (FastAPI, AI Integration):</strong
-                        >
-                        Engineered a FastAPI backend to interact with ChatGPT’s
-                        API, delivering real-time AI-powered responses.
-                        Integrated Retrieval Augmented Generation (RAG) for
-                        improved data retrieval, DXF file processing, and
-                        document filtering capabilities.
-                      </li>
-                      <li>
-                        <strong>Landing Page (Next.js):</strong> Developed an
-                        SEO-optimized landing page with server-side rendering
-                        (SSR) for better visibility. Designed an intuitive
-                        interface for users to directly retrieve DXF files and
-                        interact with AI-driven document analysis.
-                      </li>
-                    </ul>
-                    <p class="mt-4 text-gray-700">
-                      This project focused on enhancing efficiency, integrating
-                      AI, and building scalable, high-performance solutions. If
-                      you're looking for a developer who delivers robust and
-                      intelligent applications, let’s connect.
-                    </p>
-                  </div>
-                </div>
-
-                <!-- Tech Stack -->
-                <div class="mb-8">
-                  <h4 class="font-semibold text-lg mb-3 text-gray-800">
-                    Tech Stack:
-                  </h4>
-                  <div class="flex flex-wrap gap-3">
-                    <span
-                      class="tech-tag bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
-                      >React</span
-                    >
-                    <span
-                      class="tech-tag bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full"
-                      >Next.js</span
-                    >
-                    <span
-                      class="tech-tag bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full"
-                      >Typescript</span
-                    >
-                    <span
-                      class="tech-tag bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full"
-                      >Python</span
-                    >
-                    <span
-                      class="tech-tag bg-red-100 text-red-800 text-sm px-3 py-1 rounded-full"
-                      >FastAPI</span
-                    >
-                    <span
-                      class="tech-tag bg-indigo-100 text-indigo-800 text-sm px-3 py-1 rounded-full"
-                      >TailwindCSS</span
-                    >
-                    <span
-                      class="tech-tag bg-pink-100 text-pink-800 text-sm px-3 py-1 rounded-full"
-                      >Shadcn</span
-                    >
-                    <span
-                      class="tech-tag bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded-full"
-                      >MongoDBSentry</span
-                    >
-                    <span
-                      class="tech-tag bg-indigo-100 text-indigo-800 text-sm px-3 py-1 rounded-full"
-                      >Aggregation</span
-                    >
-                    <span
-                      class="tech-tag bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full"
-                      >LangChain</span
-                    >
-                    <span
-                      class="tech-tag bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
-                      >Kubernetes</span
-                    >
-                    <span
-                      class="tech-tag bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full"
-                      >Sentry</span
-                    >
-                    <span
-                      class="tech-tag bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full"
-                      >ArcGIS</span
-                    >
-                    <span
-                      class="tech-tag bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full"
-                      >3D BAG</span
-                    >
-                  </div>
-                </div>
-
-                <!-- Links -->
-                <div class="flex flex-wrap gap-4">
-                  <a
-                    href="https://unravel.struck.build/"
-                    class="flex items-center text-blue-600 hover:text-blue-800 transition-colors"
-                  >
-                    <span>Live Demo</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 ml-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                      />
-                    </svg>
-                  </a>
-                  <a
-                    href="https://www.struck.build/en"
-                    class="flex items-center text-blue-600 hover:text-blue-800 transition-colors"
-                  >
-                    <span>Company Site</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 ml-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                      />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
         <!-- Walacor Project -->
-        <section
-          id="walacor"
-          class="project-section py-16 "
-        >
+        <section id="walacor" class="project-section py-16">
           <div class="max-w-6xl mx-auto">
             <div
               class="bg-white rounded-2xl shadow-lg p-6 md:p-10 flex flex-col md:flex-row-reverse gap-8 items-start"
@@ -790,10 +1080,10 @@
                     </svg>
                   </a>
                   <a
-                    href="https://aws.amazon.com/marketplace/pp/prodview-n6yuvr2g44wpo/"
+                    href="https://www.walacor.com"
                     class="flex items-center text-blue-600 hover:text-blue-800 transition-colors"
                   >
-                    <span>AWS Marketplace</span>
+                    <span>Official Website</span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       class="h-4 w-4 ml-1"
@@ -815,8 +1105,226 @@
           </div>
         </section>
 
-        <!-- SampleServe Project -->
-        <section id="sampleserve" class="project-section py-16 ">
+
+<!-- struck-ai Project -->
+<section id="struck-ai" class="project-section py-9">
+  <div class="max-w-6xl mx-auto">
+    <div
+      class="bg-white rounded-2xl shadow-lg p-6 md:p-10 flex flex-col md:flex-row gap-8 items-start"
+    >
+      <!-- Project Details (Now on the left) -->
+      <div class="md:w-1/2 w-full text-left flex flex-col justify-between">
+        <div>
+          <h3 class="text-3xl font-bold mb-4 text-gray-800">
+            STRUCK – AI-Powered Compliance & Automation
+          </h3>
+          <p class="text-gray-700 mb-6 leading-relaxed">
+            STRUCK is an AI-assisted compliance platform designed to
+            de-risk projects, reduce time-to-construction by at least
+            15%, and optimize project budgets by 5-15%. It streamlines
+            the compliance process through two key solutions:
+          </p>
+
+          <div class="mb-6">
+            <h4 class="font-semibold text-xl mb-3 text-gray-800">
+              Key Solutions:
+            </h4>
+            <ul class="list-disc pl-5 text-gray-700 space-y-2">
+              <li>
+                <strong class="text-gray-800"
+                  >AI-Powered Regulations Library:</strong
+                >
+                A comprehensive, intelligent database for regulatory
+                compliance.
+              </li>
+              <li>
+                <strong class="text-gray-800"
+                  >Automated Zoning & Design Checks:</strong
+                >
+                Ensuring projects align with zoning laws and design
+                standards seamlessly.
+              </li>
+            </ul>
+          </div>
+
+          <div class="mb-6">
+            <h4 class="font-semibold text-xl mb-3 text-gray-800">
+              My Contributions:
+            </h4>
+            <ul class="list-disc pl-5 text-gray-700 space-y-2">
+              <li>
+                <strong>Unravel (Next.js):</strong> Developed a Next.js
+                application serving as the frontend for the AI co-pilot,
+                integrating both server-side and client-side rendering.
+                Designed and implemented REST APIs to support various
+                functionalities efficiently.
+              </li>
+              <li>
+                <strong
+                  >3DBuildings (Python, Functions Framework):</strong
+                >
+                Built a Python-based service that fetches building
+                coordinates and structures, converting them into DXF
+                AutoCAD format using ezdxf, automating design workflows
+                and reducing manual intervention.
+              </li>
+              <li>
+                <strong
+                  >Python Backend (FastAPI, AI Integration):</strong
+                >
+                Engineered a FastAPI backend to interact with ChatGPT’s
+                API, delivering real-time AI-powered responses.
+                Integrated Retrieval Augmented Generation (RAG) for
+                improved data retrieval, DXF file processing, and
+                document filtering capabilities.
+              </li>
+              <li>
+                <strong>Landing Page (Next.js):</strong> Developed an
+                SEO-optimized landing page with server-side rendering
+                (SSR) for better visibility. Designed an intuitive
+                interface for users to directly retrieve DXF files and
+                interact with AI-driven document analysis.
+              </li>
+            </ul>
+            <p class="mt-4 text-gray-700">
+              This project focused on enhancing efficiency, integrating
+              AI, and building scalable, high-performance solutions. If
+              you're looking for a developer who delivers robust and
+              intelligent applications, let’s connect.
+            </p>
+          </div>
+        </div>
+
+        <!-- Tech Stack -->
+        <div class="mb-8">
+          <h4 class="font-semibold text-lg mb-3 text-gray-800">
+            Tech Stack:
+          </h4>
+          <div class="flex flex-wrap gap-3">
+            <span
+              class="tech-tag bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
+              >React</span
+            >
+            <span
+              class="tech-tag bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full"
+              >Next.js</span
+            >
+            <span
+              class="tech-tag bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full"
+              >Typescript</span
+            >
+            <span
+              class="tech-tag bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full"
+              >Python</span
+            >
+            <span
+              class="tech-tag bg-red-100 text-red-800 text-sm px-3 py-1 rounded-full"
+              >FastAPI</span
+            >
+            <span
+              class="tech-tag bg-indigo-100 text-indigo-800 text-sm px-3 py-1 rounded-full"
+              >TailwindCSS</span
+            >
+            <span
+              class="tech-tag bg-pink-100 text-pink-800 text-sm px-3 py-1 rounded-full"
+              >Shadcn</span
+            >
+            <span
+              class="tech-tag bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded-full"
+              >MongoDBSentry</span
+            >
+            <span
+              class="tech-tag bg-indigo-100 text-indigo-800 text-sm px-3 py-1 rounded-full"
+              >Aggregation</span
+            >
+            <span
+              class="tech-tag bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full"
+              >LangChain</span
+            >
+            <span
+              class="tech-tag bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
+              >Kubernetes</span
+            >
+            <span
+              class="tech-tag bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full"
+              >Sentry</span
+            >
+            <span
+              class="tech-tag bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full"
+              >ArcGIS</span
+            >
+            <span
+              class="tech-tag bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full"
+              >3D BAG</span
+            >
+          </div>
+        </div>
+
+        <!-- Links -->
+        <div class="flex flex-wrap gap-4">
+          <a
+            href="https://unravel.struck.build/"
+            class="flex items-center text-blue-600 hover:text-blue-800 transition-colors"
+          >
+            <span>Live Demo</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 ml-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.struck.build/en"
+            class="flex items-center text-blue-600 hover:text-blue-800 transition-colors"
+          >
+            <span>Company Site</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 ml-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Project Image (Now on the right) -->
+      <div class="md:w-1/2 w-full">
+        <img
+          src="./images/work/struck-ai.png"
+          alt="STRUCK-AI project screenshot"
+          class="rounded-xl w-full"
+        />
+        <p class="mt-4 text-center font-semibold text-xl text-gray-600">
+          STRUCK-AI
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+        <!-- TaskHuman – Coaching App (Audio/Video) -->
+        <section id="TaskHuman" class="project-section py-16">
           <div class="max-w-6xl mx-auto">
             <div
               class="bg-white rounded-2xl shadow-lg p-6 md:p-10 flex flex-col md:flex-row gap-8 items-start"
@@ -824,97 +1332,43 @@
               <!-- Project Image -->
               <div class="md:w-1/2 w-full">
                 <img
-                  src="./images/work/sample serve.png"
-                  alt="SampleServe project screenshot"
+                  src="./images/work/Task human.png"
+                  alt="TaskHuman project screenshot"
                   class="rounded-xl w-full"
                 />
                 <p class="mt-4 text-center font-semibold text-xl text-gray-600">
-                  SampleServe
+                  TaskHuman
                 </p>
               </div>
 
               <!-- Project Details -->
               <div class="md:w-1/2 w-full text-left">
                 <h3 class="text-3xl font-bold mb-4 text-gray-800">
-                  SampleServe - Environmental Sampling Platform
+                  TaskHuman – Coaching App (Audio/Video)
                 </h3>
                 <p class="text-gray-700 mb-6 leading-relaxed">
-                  SampleServe is an advanced environmental sampling and data
-                  management platform designed to streamline workflows for
-                  environmental professionals. By digitizing the sampling
-                  process, it enhances efficiency, accuracy, and compliance,
-                  eliminating manual errors and paperwork. With its intuitive
-                  mobile and web applications, SampleServe enables real-time
-                  data collection, seamless collaboration between field and lab
-                  teams, and automated reporting, ensuring faster and more
-                  reliable environmental testing.
+                  A virtual coaching platform enabling 1-on-1 online coaching sessions between users and providers via audio/video calls, with real-time tools for scheduling, communication, and analytics.
                 </p>
-
                 <div class="mb-6">
                   <h4 class="font-semibold text-xl mb-3 text-gray-800">
-                    Key Features:
+                    Project Responsibilities:
                   </h4>
                   <ul class="list-disc list-inside text-gray-700 space-y-2">
                     <li class="flex items-start">
                       <span class="mr-2">•</span>
-                      <span
-                        ><strong class="text-gray-800"
-                          >Digital Chain-of-Custody:</strong
-                        >
-                        Secure and transparent sample tracking from collection
-                        to analysis.</span
-                      >
+                      Developed RESTful APIs for video/audio calling, availability management, appointment booking, and messaging features.
                     </li>
                     <li class="flex items-start">
                       <span class="mr-2">•</span>
-                      <span
-                        ><strong class="text-gray-800"
-                          >Automated Report Generation:</strong
-                        >
-                        Instantly compiles detailed, compliance-ready
-                        reports.</span
-                      >
+                      Integrated Twilio and Socket.io to enable real-time communication and session handling.
                     </li>
                     <li class="flex items-start">
                       <span class="mr-2">•</span>
-                      <span
-                        ><strong class="text-gray-800"
-                          >Real-Time Field Data Collection:</strong
-                        >
-                        Mobile app integration for accurate on-site data
-                        entry.</span
-                      >
-                    </li>
-                    <li class="flex items-start">
-                      <span class="mr-2">•</span>
-                      <span
-                        ><strong class="text-gray-800"
-                          >Cloud-Based Accessibility:</strong
-                        >
-                        Enables teams to access and manage data anytime,
-                        anywhere.</span
-                      >
-                    </li>
-                    <li class="flex items-start">
-                      <span class="mr-2">•</span>
-                      <span
-                        ><strong class="text-gray-800"
-                          >Regulatory Compliance:</strong
-                        >
-                        Ensures adherence to environmental standards and
-                        protocols.</span
-                      >
+                      Built backend modules to support admin operations, data reporting, and performance forecasting.
                     </li>
                   </ul>
-                  <p class="mt-4">
-                    SampleServe has revolutionized environmental sampling by
-                    reducing paperwork, minimizing human error, and accelerating
-                    project turnaround times. It empowers field teams and
-                    laboratories with a modern, efficient, and user-friendly
-                    solution, driving greater accuracy and productivity in
-                    environmental testing.
-                  </p>
                 </div>
+
 
                 <!-- Tech Stack -->
                 <div class="mb-8">
@@ -924,306 +1378,31 @@
                   <div class="flex flex-wrap gap-3">
                     <span
                       class="tech-tag bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
-                      >HTML</span
+                      >NodeJS</span
                     >
                     <span
                       class="tech-tag bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full"
-                      >CSS</span
+                      >ExpressJS</span
                     >
                     <span
                       class="tech-tag bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full"
-                      >Typescript</span
-                    >
-                    <span
-                      class="tech-tag bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full"
-                      >Redux</span
-                    >
-                    <span
-                      class="tech-tag bg-red-100 text-red-800 text-sm px-3 py-1 rounded-full"
-                      >Auth0</span
-                    >
-                    <span
-                      class="tech-tag bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
-                      >React</span
-                    >
-                    <span
-                      class="tech-tag bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full"
-                      >React-native</span
-                    >
-                  </div>
-                </div>
-
-                <!-- Links -->
-                <div class="flex flex-wrap gap-4">
-                  <a
-                    href="https://www.sampleserve.com/"
-                    class="flex items-center text-blue-600 hover:text-blue-800 transition-colors"
-                  >
-                    <span>Official Website</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 ml-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                      />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Convo.ai Project -->
-        <section
-          id="convoai"
-          class="project-section py-16 "
-        >
-          <div class="max-w-6xl mx-auto">
-            <div
-              class="bg-white rounded-2xl shadow-lg p-6 md:p-10 flex flex-col md:flex-row-reverse gap-8 items-start"
-            >
-              <!-- Project Image -->
-              <div class="md:w-1/2 w-full">
-                <img
-                  src="./images/work/convoai.png"
-                  alt="Convo.ai project screenshot"
-                  class="rounded-xl w-full"
-                />
-                <p class="mt-4 text-center font-semibold text-xl text-gray-600">
-                  Convo.ai
-                </p>
-              </div>
-
-              <!-- Project Details -->
-              <div class="md:w-1/2 w-full text-left">
-                <h3 class="text-3xl font-bold mb-4 text-gray-800">
-                  Convo.ai - AI Conversation Platform
-                </h3>
-                <p class="text-gray-700 mb-6 leading-relaxed">
-                  Convo.ai is an advanced AI-driven conversational platform
-                  designed to transform customer interactions through
-                  intelligent automation. Built on the MERN stack (MongoDB,
-                  Express.js, React, Node.js), it seamlessly integrates with
-                  business tools, delivering personalized, real-time
-                  communication that enhances engagement and streamlines
-                  customer support.
-                  <br />
-                  Leveraging cutting-edge Natural Language Processing (NLP),
-                  Convo.ai understands and responds to user queries with
-                  accuracy, ensuring a smooth and efficient customer experience.
-                </p>
-
-                <div class="mb-6">
-                  <h4 class="font-semibold text-xl mb-3 text-gray-800">
-                    Key Features:
-                  </h4>
-                  <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li class="flex items-start">
-                      <span class="mr-2">•</span>
-                      <span
-                        ><strong class="text-gray-800"
-                          >AI-Driven Chatbot:</strong
-                        >
-                        Automates real-time customer interactions with
-                        intelligent responses.</span
-                      >
-                    </li>
-                    <li class="flex items-start">
-                      <span class="mr-2">•</span>
-                      <span
-                        ><strong class="text-gray-800"
-                          >Scalable Backend Architecture:</strong
-                        >
-                        Powered by Node.js and Express for high-performance
-                        request handling.</span
-                      >
-                    </li>
-                    <li class="flex items-start">
-                      <span class="mr-2">•</span>
-                      <span
-                        ><strong class="text-gray-800"
-                          >Dynamic Frontend:</strong
-                        >
-                        Built with React for a seamless, intuitive user
-                        experience.</span
-                      >
-                    </li>
-                    <li class="flex items-start">
-                      <span class="mr-2">•</span>
-                      <span
-                        ><strong class="text-gray-800"
-                          >Efficient Data Management:</strong
-                        >
-                        Utilizes MongoDB for fast and reliable data storage and
-                        retrieval.</span
-                      >
-                    </li>
-                    <li class="flex items-start">
-                      <span class="mr-2">•</span>
-                      <span
-                        ><strong class="text-gray-800"
-                          >Seamless Integrations:</strong
-                        >
-                        Easily connects with third-party APIs, CRM systems, and
-                        business tools for enhanced functionality.</span
-                      >
-                    </li>
-                  </ul>
-                  <p class="mt-4">
-                    Convo.ai empowers businesses to enhance customer engagement,
-                    streamline support processes, and drive operational
-                    efficiency. By combining AI, automation, and a user-friendly
-                    interface, it delivers a smarter, faster, and more efficient
-                    way to manage conversations at scale.
-                  </p>
-                </div>
-
-                <!-- Tech Stack -->
-                <div class="mb-8">
-                  <h4 class="font-semibold text-lg mb-3 text-gray-800">
-                    Tech Stack:
-                  </h4>
-                  <div class="flex flex-wrap gap-3">
-                    <span
-                      class="tech-tag bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
-                      >Python</span
-                    >
-                    <span
-                      class="tech-tag bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full"
-                      >NextJS</span
-                    >
-                    <span
-                      class="tech-tag bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full"
-                      >React</span
-                    >
-                    <span
-                      class="tech-tag bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full"
-                      >Typescript</span
-                    >
-                    <span
-                      class="tech-tag bg-red-100 text-red-800 text-sm px-3 py-1 rounded-full"
                       >MongoDB</span
                     >
                     <span
-                      class="tech-tag bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
-                      >Tailwind Css</span
-                    >
-                    <span
-                      class="tech-tag bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full"
-                      >Prompt</span
-                    >
-                  </div>
-                </div>
-
-                <!-- Links -->
-                <div class="flex flex-wrap gap-4">
-                  <a
-                    href="https://getconvo.ai/"
-                    class="flex items-center text-blue-600 hover:text-blue-800 transition-colors"
-                  >
-                    <span>Official Website</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 ml-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                      />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Chapterly Project -->
-        <section id="chapterly" class="project-section py-16 ">
-          <div class="max-w-6xl mx-auto">
-            <div
-              class="bg-white rounded-2xl shadow-lg p-6 md:p-10 flex flex-col md:flex-row gap-8 items-start"
-            >
-              <!-- Project Image -->
-              <div class="md:w-1/2 w-full">
-                <img
-                  src="./images/work/chapterly.png"
-                  alt="Chapterly project screenshot"
-                  class="rounded-xl w-full"
-                />
-                <p class="mt-4 text-center font-semibold text-xl text-gray-600">
-                  Chapterly
-                </p>
-              </div>
-
-              <!-- Project Details -->
-              <div class="md:w-1/2 w-full text-left">
-                <h3 class="text-3xl font-bold mb-4 text-gray-800">
-                  Chapterly - Authoring Platform
-                </h3>
-                <p class="text-gray-700 mb-6 leading-relaxed">
-                  Chapterly is an authoring app. It aims to connect readers
-                  with storytellers from across the globe. Chapterly's authoring
-                  tools matched with a growing global audience of readers
-                  unlocks author-friendly publishing opportunities storytellers
-                  deserve. Including spelling and grammar checker,
-                  distraction-free mode, goals and more.
-                </p>
-
-                <!-- Tech Stack -->
-                <div class="mb-8">
-                  <h4 class="font-semibold text-lg mb-3 text-gray-800">
-                    Tech Stack:
-                  </h4>
-                  <div class="flex flex-wrap gap-3">
-                    <span
-                      class="tech-tag bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
-                      >React.js</span
-                    >
-                    <span
-                      class="tech-tag bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full"
-                      >Node.js</span
-                    >
-                    <span
-                      class="tech-tag bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full"
-                      >Next.js</span
-                    >
-                    <span
                       class="tech-tag bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full"
-                      >Firebase</span
+                      >ReactJS</span
                     >
                     <span
                       class="tech-tag bg-red-100 text-red-800 text-sm px-3 py-1 rounded-full"
-                      >StoryBook</span
+                      >Redis</span
                     >
                     <span
-                      class="tech-tag bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
-                      >Typescript</span
+                      class="tech-tag bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">
+                    Scoket.io</span
                     >
                     <span
                       class="tech-tag bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full"
-                      >Styled Components</span
-                    >
-                    <span
-                      class="tech-tag bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full"
-                      >Sentry</span
-                    >
-                    <span
-                      class="tech-tag bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full"
-                      >Notion</span
+                      >Twilio</span
                     >
                   </div>
                 </div>
@@ -1231,7 +1410,7 @@
                 <!-- Links -->
                 <div class="flex flex-wrap gap-4">
                   <a
-                    href="https://www.chapterly.com/"
+                    href="https://taskhuman.com/"
                     class="flex items-center text-blue-600 hover:text-blue-800 transition-colors"
                   >
                     <span>Related Project</span>
@@ -1256,11 +1435,9 @@
           </div>
         </section>
 
+
         <!-- GoMedii Project -->
-        <section
-          id="gomedii"
-          class="project-section py-16 "
-        >
+        <section id="gomedii" class="project-section py-16">
           <div class="max-w-6xl mx-auto">
             <div
               class="bg-white rounded-2xl shadow-lg p-6 md:p-10 flex flex-col md:flex-row-reverse gap-8 items-start"
@@ -1387,237 +1564,105 @@
           </div>
         </section>
 
-        <!-- Dimusco Project -->
-        <section id="dimusco" class="project-section py-16 ">
-          <div class="max-w-6xl mx-auto">
-            <div
-              class="bg-white rounded-2xl shadow-lg p-6 md:p-10 flex flex-col md:flex-row gap-8 items-start"
-            >
-              <!-- Project Image -->
-              <div class="md:w-1/2 w-full">
-                <img
-                  src="./images/work/Dimusco.png"
-                  alt="Dimusco project screenshot"
-                  class="rounded-xl w-full"
-                />
-                <p class="mt-4 text-center font-semibold text-xl text-gray-600">
-                  Dimusco
-                </p>
-              </div>
 
-              <!-- Project Details -->
-              <div class="md:w-1/2 w-full text-left">
-                <h3 class="text-3xl font-bold mb-4 text-gray-800">
-                  Dimusco - Digital Sheet Music
-                </h3>
-                <p class="text-gray-700 mb-6 leading-relaxed">
-                  Dimusco is a digital sheet music platform designed to provide
-                  musicians with a seamless way to access, annotate, and share
-                  sheet music across devices. Built with a focus on usability
-                  and collaboration, it enables orchestras, ensembles, and
-                  individual musicians to manage their music libraries
-                  efficiently.The platform integrates real-time synchronization,
-                  advanced annotation tools, and cloud-based accessibility,
-                  making it a powerful solution for modern digital sheet music
-                  management.
-                </p>
 
-                <!-- Tech Stack -->
-                <div class="mb-8">
-                  <h4 class="font-semibold text-lg mb-3 text-gray-800">
-                    Tech Stack:
-                  </h4>
-                  <div class="flex flex-wrap gap-3">
-                    <span
-                      class="tech-tag bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
-                      >ReactJS</span
-                    >
-                    <span
-                      class="tech-tag bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full"
-                      >JavaScript</span
-                    >
-                    <span
-                      class="tech-tag bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full"
-                      >Redux</span
-                    >
-                    <span
-                      class="tech-tag bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full"
-                      >SCSS</span
-                    >
-                    <span
-                      class="tech-tag bg-red-100 text-red-800 text-sm px-3 py-1 rounded-full"
-                      >REST API</span
-                    >
-                    <span
-                      class="tech-tag bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
-                      >CSS</span
-                    >
-                    <span
-                      class="tech-tag bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full"
-                      >Bootstrap</span
-                    >
-                  </div>
-                </div>
 
-                <!-- Links -->
-                <div class="flex flex-wrap gap-4">
-                  <a
-                    href="https://dimusco.com/"
-                    class="flex items-center text-blue-600 hover:text-blue-800 transition-colors"
-                  >
-                    <span>Related Project</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 ml-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                      />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
+
+<!-- BRR Media – Live Streaming Platform -->
+<section id="BrrMedia" class="project-section py-16">
+  <div class="max-w-6xl mx-auto">
+    <div
+      class="bg-white rounded-2xl shadow-lg p-6 md:p-10 flex flex-col md:flex-row gap-8 items-start"
+    >
+      <!-- Project Image -->
+      <div class="md:w-1/2 w-full">
+        <img
+          src="./images/work/brr media.png"
+          alt="BRR Media project screenshot"
+          class="rounded-xl w-full"
+        />
+        <p class="mt-4 text-center font-semibold text-xl text-gray-600">
+          Brr Media
+        </p>
+      </div>
+
+      <!-- Project Details -->
+      <div class="md:w-1/2 w-full text-left">
+        <h3 class="text-3xl font-bold mb-4 text-gray-800">
+          BRR Media – Live Streaming Platform
+        </h3>
+        <p class="text-gray-700 mb-6 leading-relaxed">
+          A London-based media company delivering live-streamed and pre-recorded webcast events for major European enterprises during high-pressure corporate moments.
+        </p>
+
+        <div class="mb-6">
+          <h4 class="font-semibold text-xl mb-3 text-gray-800">
+            Project Responsibilities:
+          </h4>
+          <ul class="list-disc list-inside text-gray-700 space-y-2">
+            <li class="flex items-start">
+              <span class="mr-2">•</span>
+              Built scalable APIs and real-time data streams to manage live event logistics and user interaction.
+            </li>
+            <li class="flex items-start">
+              <span class="mr-2">•</span>
+              Ensured precise and rapid feature delivery under tight deadlines and complex requirements.
+            </li>
+            <li class="flex items-start">
+              <span class="mr-2">•</span>
+              Coordinated with frontend and operations teams to support seamless webcast production.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Tech Stack -->
+        <div class="mb-8">
+          <h4 class="font-semibold text-lg mb-3 text-gray-800">
+            Tech Stack:
+          </h4>
+          <div class="flex flex-wrap gap-3">
+            <span class="tech-tag bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">NodeJS</span>
+            <span class="tech-tag bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full">ExpressJS</span>
+            <span class="tech-tag bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full">MongoDB</span>
+            <span class="tech-tag bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full">Socket.io</span>
+            <span class="tech-tag bg-red-100 text-red-800 text-sm px-3 py-1 rounded-full">Angular</span>
           </div>
-        </section>
+        </div>
 
-        <!-- Fantasy Sports Project -->
-        <section
-          id="fantasy-sports"
-          class="project-section py-16"
-        >
-          <div class="max-w-6xl mx-auto">
-            <div
-              class="bg-white rounded-2xl shadow-lg p-6 md:p-10 flex flex-col md:flex-row-reverse gap-8 items-start"
+        <!-- Links -->
+        <div class="flex flex-wrap gap-4">
+          <a
+            href="https://www.brrmedia.co.uk/"
+            class="flex items-center text-blue-600 hover:text-blue-800 transition-colors"
+          >
+            <span>Official Website</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 ml-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
             >
-              <!-- Project Image -->
-              <div class="md:w-1/2 w-full">
-                <img
-                  src="./images/work/fantasy sport.png"
-                  alt="Fantasy Sports project screenshot"
-                  class="rounded-xl w-full"
-                />
-                <p class="mt-4 text-center font-semibold text-xl text-gray-600">
-                  Fantasy Sports
-                </p>
-              </div>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-              <!-- Project Details -->
-              <div class="md:w-1/2 w-full text-left">
-                <h3 class="text-3xl font-bold mb-4 text-gray-800">
-                  Fantasy Sports App
-                </h3>
-                <p class="text-gray-700 mb-6 leading-relaxed">
-                  A mobile application designed to serve the majority of sports
-                  events, allowing users to create lineups for participation. It
-                  introduces a new way to play fantasy sports—your one-stop
-                  destination to play, draft, manage, and compete in fantasy
-                  leagues and contests.
-                </p>
-
-                <div class="mb-6">
-                  <h4 class="font-semibold text-xl mb-3 text-gray-800">
-                    Project Responsibilities:
-                  </h4>
-                  <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li class="flex items-start">
-                      <span class="mr-2">•</span>
-                      Coordinated with the team to integrate features into the
-                      mobile app.
-                    </li>
-                    <li class="flex items-start">
-                      <span class="mr-2">•</span>
-                      Ensured the application met industry standards.
-                    </li>
-                    <li class="flex items-start">
-                      <span class="mr-2">•</span>
-                      Tested and debugged the application to ensure optimal
-                      performance.
-                    </li>
-                    <li class="flex items-start">
-                      <span class="mr-2">•</span>
-                      Monitored application performance.
-                    </li>
-                  </ul>
-                </div>
-
-                <!-- Tech Stack -->
-                <div class="mb-8">
-                  <h4 class="font-semibold text-lg mb-3 text-gray-800">
-                    Tech Stack:
-                  </h4>
-                  <div class="flex flex-wrap gap-3">
-                    <span
-                      class="tech-tag bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
-                      >React-Native</span
-                    >
-                    <span
-                      class="tech-tag bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full"
-                      >JavaScript</span
-                    >
-                    <span
-                      class="tech-tag bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full"
-                      >TypeScript</span
-                    >
-                    <span
-                      class="tech-tag bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full"
-                      >Python</span
-                    >
-                    <span
-                      class="tech-tag bg-red-100 text-red-800 text-sm px-3 py-1 rounded-full"
-                      >AWS</span
-                    >
-                    <span
-                      class="tech-tag bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
-                      >Android</span
-                    >
-                    <span
-                      class="tech-tag bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full"
-                      >Firebase</span
-                    >
-                  </div>
-                </div>
-
-                <!-- Links -->
-                <div class="flex flex-wrap gap-4">
-                  <a
-                    href="https://legacyfantasysports.com/"
-                    class="flex items-center text-blue-600 hover:text-blue-800 transition-colors"
-                  >
-                    <span>Official Website</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 ml-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                      />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
       </div>
     </section>
     <!-- Testimonials -->
-
+	<!--
     <section class="bg-white py-16 px-4" id="testimonials">
       <div class="max-w-6xl mx-auto text-center">
-        <!-- Heading -->
         <div
           class="inline-block bg-gray-200 text-gray-800 text-lg font-medium px-6 py-2 rounded-full mb-4"
         >
@@ -1627,9 +1672,7 @@
           Nice things people have said about me:
         </p>
 
-        <!-- Testimonials Grid -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <!-- Testimonial 1 -->
           <div
             class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center"
           >
@@ -1646,8 +1689,6 @@
             <h4 class="text-gray-900 font-semibold text-base">Nikhil Nagraj</h4>
             <p class="text-gray-500 text-sm">Founder & CTO - Struck.build</p>
           </div>
-
-          <!-- Testimonial 2 -->
           <div
             class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center"
           >
@@ -1664,8 +1705,7 @@
             <h4 class="text-gray-900 font-semibold text-base">Renny</h4>
             <p class="text-gray-500 text-sm">CEO/Cofounder - Convo</p>
           </div>
-
-          <!-- Testimonial 3 -->
+		  
           <div
             class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center"
           >
@@ -1675,15 +1715,15 @@
               class="w-16 h-16 rounded-full mb-4"
             />
             <div class="text-gray-600 text-sm mb-4 h-40 overflow-y-auto px-2">
-              Working with Talib has been an incredible experience. As a
-              highly skilled full-stack developer, his expertise spans across
-              front-end and back-end technologies, delivering seamless and
-              efficient solutions. Talib’s ability to understand complex
-              project requirements and translate them into functional and
-              user-friendly applications is unmatched. He consistently exceeds
-              expectations with his innovative problem-solving skills and
-              commitment to quality. I highly recommend him to anyone looking
-              for a reliable, talented developer to elevate their projects.
+              Working with Talib has been an incredible experience. As a highly
+              skilled full-stack developer, his expertise spans across front-end
+              and back-end technologies, delivering seamless and efficient
+              solutions. Talib’s ability to understand complex project
+              requirements and translate them into functional and user-friendly
+              applications is unmatched. He consistently exceeds expectations
+              with his innovative problem-solving skills and commitment to
+              quality. I highly recommend him to anyone looking for a reliable,
+              talented developer to elevate their projects.
             </div>
             <h4 class="text-gray-900 font-semibold text-base">Adrian Tan</h4>
             <p class="text-gray-500 text-sm text-center">
@@ -1693,6 +1733,7 @@
         </div>
       </div>
     </section>
+	-->
 
     <footer class="bg-[rgb(246,250,255)] py-16 px-4 text-center" id="contact">
       <!-- Call to action -->
@@ -1704,7 +1745,8 @@
 
       <!-- Sub text -->
       <p class="text-gray-600 text-base max-w-xl mx-auto mb-8">
-        What’s next? Feel free to reach out to me if you're looking for a Tech Lead or Full-Stack developer, have a query, or simply want to connect.
+        What’s next? Feel free to reach out to me if you're looking for a Tech
+        Lead or Full-Stack developer, have a query, or simply want to connect.
       </p>
 
       <!-- Contact Info -->
@@ -1730,7 +1772,7 @@
         </div>
 
         <!-- Phone -->
-		<!--
+        <!--
         <div class="flex items-center gap-2">
           <svg
             class="w-6 h-6 text-gray-700"
@@ -1789,15 +1831,15 @@
       const mobileMenu = document.getElementById("mobile-menu");
       const menuIcon = document.getElementById("menu-icon");
       const closeIcon = document.getElementById("close-icon");
-    
+
       menuBtn.addEventListener("click", () => {
         mobileMenu.classList.toggle("hidden");
         menuIcon.classList.toggle("hidden");
         closeIcon.classList.toggle("hidden");
       });
-    
+
       // Optional: Close menu when a link is clicked
-      document.querySelectorAll("#mobile-menu a").forEach(link => {
+      document.querySelectorAll("#mobile-menu a").forEach((link) => {
         link.addEventListener("click", () => {
           mobileMenu.classList.add("hidden");
           menuIcon.classList.remove("hidden");
@@ -1805,6 +1847,5 @@
         });
       });
     </script>
-    
   </body>
 </html>
